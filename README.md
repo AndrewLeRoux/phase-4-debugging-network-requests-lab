@@ -62,12 +62,18 @@ developing your own process.
 
 - Add a new toy when the toy form is submitted
 
-  - How I debugged:
+  - tried to submit new toy with new toy form, got 500 service error
+  - went to the create action, say there was a typo
 
 - Update the number of likes for a toy
 
-  - How I debugged:
+  - tried to add like to toy
+  - got uncaugat (in promise) syntazx error: 
+      unexpected end of JSON input
+  - update action is not returning anything
+  - added "render json: toy" to update action
 
 - Donate a toy to Goodwill (and delete it from our database)
 
-  - How I debugged:
+
+  - 404 not found error, route needs to be created
